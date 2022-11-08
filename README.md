@@ -38,6 +38,7 @@ distribution you wish.
    `--min-cpu-platform="Intel Haswell"`
    
    
+   
   <img width="960" alt="1283" src="https://user-images.githubusercontent.com/83566582/200480705-83129e66-1c97-4204-908b-831591a1d2cb.PNG">
 
   
@@ -49,6 +50,7 @@ distribution you wish.
 6. Installed gcc and make in the root folder.
 
 `sudo bash`
+
 `apt install gcc make`
 
 7. Installed linux headers in cmpe283assigment-1 folder.
@@ -59,13 +61,27 @@ distribution you wish.
 
 `vi cmpe283assignment-1.c`
 
+<img width="960" alt="4283" src="https://user-images.githubusercontent.com/83566582/200485574-1d8d16ba-e5b0-4fdc-84f0-b4dc2556ac8c.PNG">
+
+
+
 10. Created a Makefile and copied the content given by the professor.
 
 `nano Makefile`
 
+
+<img width="960" alt="7283" src="https://user-images.githubusercontent.com/83566582/200485481-b27f49a5-9cd9-41aa-8933-3fba5dd45060.PNG">
+
+
+
 11. Run "make" command to generate .o and .ko files.
 
 `make`
+
+
+<img width="960" alt="main1283" src="https://user-images.githubusercontent.com/83566582/200485351-9c4d421d-d2df-48ed-82a2-19165757835b.PNG">
+
+
 
 12. Inserted and removed modules using the insmod/rmmod commands.
 
@@ -73,8 +89,24 @@ distribution you wish.
 
 `sudo rmmod cmpe283assignment-1.ko`
 
-13. Run "sudo dmesg" to print the output.
+13. Run "sudo dmesg" to print the output of vmx features.
 
 `sudo dmesg`
+
+
+#### Output:
+
+
+<img width="960" alt="Y1" src="https://user-images.githubusercontent.com/83566582/200485162-0ed14eb8-d334-4037-a15c-3a2fdc9a7e44.PNG">
+
+
+<img width="960" alt="Y2" src="https://user-images.githubusercontent.com/83566582/200485165-dd0ac42d-37ee-435a-bcb5-274d3094b181.PNG">
+
+
+<img width="960" alt="Y3" src="https://user-images.githubusercontent.com/83566582/200485167-3cf0004c-a4d2-4ba7-937d-5871ecc49173.PNG">
+
+
+<img width="960" alt="Y4" src="https://user-images.githubusercontent.com/83566582/200485170-aed51ab4-a120-45f7-b3f7-4d36d0b99f03.PNG">
+
 
 
