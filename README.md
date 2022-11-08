@@ -36,8 +36,45 @@ distribution you wish.
    `--zone= us-central1-a \`
   
    `--min-cpu-platform="Intel Haswell"`
+   
+   
   <img width="960" alt="1283" src="https://user-images.githubusercontent.com/83566582/200480705-83129e66-1c97-4204-908b-831591a1d2cb.PNG">
 
   
- 4. step3
- 5. step4
+ 5. Created a new directory - cmpe283assignment-1
+
+`mkdir cmpe283assignment-1`
+`cd cmpe283assignment-1`
+
+6. Installed gcc and make in the root folder.
+
+`sudo bash`
+`apt install gcc make`
+
+7. Installed linux headers in cmpe283assigment-1 folder.
+
+`sudo apt install linux-headers-$(uname -r)`
+
+9.   Added the code to cmpe283assignment-1.c file.
+
+`vi cmpe283assignment-1.c`
+
+10. Created a Makefile and copied the content given by the professor.
+
+`nano Makefile`
+
+11. Run "make" command to generate .o and .ko files.
+
+`make`
+
+12. Inserted and removed modules using the insmod/rmmod commands.
+
+`sudo insmod cmpe283assignment-1.ko`
+
+`sudo rmmod cmpe283assignment-1.ko`
+
+13. Run "sudo dmesg" to print the output.
+
+`sudo dmesg`
+
+
