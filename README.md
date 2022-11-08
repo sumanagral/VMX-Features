@@ -25,13 +25,14 @@ distribution you wish.
 
 Ninad Marathe:
 
-In the cmpe283assignment-1.c file, Ninad added the functionality to detect vmx feature of the primary processor based controls, secondary processor based controls, and tertiary processor based controls by referring to the video by the professor and the Intel SDM volume 3.
+In the cmpe283assignment-1.c file, Ninad added the functionality to detect vmx feature of the primary processor based controls, secondary processor based controls, and tertiary processor based controls by referring to the video by the professor and the Intel SDM volume 3. Ninad handled errors in the code during execution.
 
 
 Suma Nagral:
 
 Suma was responsible for creating the VM instance, configuring it, and enabling nested virtualization. She installed gcc and make in the root directory, created the cmpe283assignment-1 directory, and then installed linux headers in that directory. She added functionality to the cmpe283assignment-1.c file to query the exit and entry controls. She ran the code in the virtual machine instance to get the final result.
 
+Both team members were responsible for documenting the steps in the readme.md file and understanding the code.
 
 
 #### Question 2: Describe in detail the steps you used to complete the assignment. Consider your reader to be someone skilled in software development but otherwise unfamiliar with the assignment. Good answers to this question will be recipes that someone can follow to reproduce your development steps.
