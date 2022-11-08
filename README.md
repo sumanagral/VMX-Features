@@ -24,8 +24,10 @@ distribution you wish.
 
 
 #### Implementation:
- 1. Create an account on the Google Cloud Platform (GCP)
- 2. Create a VM instance using GUI or commmand line and enable nested virtualization.
+ 1. Downloaded cmpe283-1.c and Makefile from canvas. 
+ 2. Edited the code to include capabilities info for Pinbased Controls, Primary Processor-Based Controls, Secondary Processor-Based Controls, Tertiary Processor-Based Controls, Entry Controls, and Exit Controls.
+ 3. Created an account on the Google Cloud Platform (GCP)
+ 4. Created a VM instance and enabled nested virtualization.
 
  `gcloud compute instances create assignment1 \`
  
@@ -34,7 +36,8 @@ distribution you wish.
    `--zone= us-central1-a \`
   
    `--min-cpu-platform="Intel Haswell"`
+  <img width="960" alt="1283" src="https://user-images.githubusercontent.com/83566582/200480705-83129e66-1c97-4204-908b-831591a1d2cb.PNG">
+
   
-  
- 3. step3
- 4. step4
+ 4. step3
+ 5. step4
