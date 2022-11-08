@@ -21,6 +21,7 @@ distribution you wish.
 #### Implementation:
  1. Create an account on the Google Cloud Platform (GCP)
  2. Create a VM instance using GUI or commmand line and enable nested virtualization.
+
     `gcloud compute instances create assignment1 \
   --enable-nested-virtualization \
   --zone= us-central1-a \
