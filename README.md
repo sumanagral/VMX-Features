@@ -12,17 +12,26 @@ Describe in detail the steps you used to complete the assignment As part of this
 
 •  Configure a Linux machine, either VM based or on real hardware. You may use any Linux 
 distribution you wish.
+
 • Download and build the Linux kernel source code
+
 • Create a new kernel module with the assignment functionality
+
 • Load (insert) the new module
+
 • Verify proper output in the system message log.
+
 
 
 #### Implementation:
  1. Create an account on the Google Cloud Platform (GCP)
  2. Create a VM instance using GUI or commmand line and enable nested virtualization.
 
-    `gcloud compute instances create assignment1 \
+ `gcloud compute instances create assignment1 \
+ 
   --enable-nested-virtualization \
+  
   --zone= us-central1-a \
+  
   --min-cpu-platform="Intel Haswell"`
+   3. 
