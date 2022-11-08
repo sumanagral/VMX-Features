@@ -27,11 +27,14 @@ distribution you wish.
  1. Create an account on the Google Cloud Platform (GCP)
  2. Create a VM instance using GUI or commmand line and enable nested virtualization.
 
- `gcloud compute instances create assignment1 \
+ `gcloud compute instances create assignment1 \`
  
-  --enable-nested-virtualization \
+   `--enable-nested-virtualization \`
   
-  --zone= us-central1-a \
+   `--zone= us-central1-a \`
   
-  --min-cpu-platform="Intel Haswell"`
-   3. 
+   `--min-cpu-platform="Intel Haswell"`
+  
+  
+ 3. step3
+ 4. step4
