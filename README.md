@@ -25,9 +25,12 @@ distribution you wish.
 
 Ninad Marathe:
 
+In the cmpe283assignment-1.c file, Ninad added the functionality to detect vmx feature of the primary processor based controls, secondary processor based controls, and tertiary processor based controls by referring to the video by the professor and the Intel SDM volume 3.
+
 
 Suma Nagral:
 
+Suma was responsible for creating the VM instance, configuring it, and enabling nested virtualization. She installed gcc and make in the root directory, created the cmpe283assignment-1 directory, and then installed linux headers in that directory. She added functionality to the cmpe283assignment-1.c file to query the exit and entry controls. She ran the code in the virtual machine instance to get the final result.
 
 
 
@@ -37,7 +40,7 @@ Suma Nagral:
 #### Implementation:
  1. Downloaded cmpe283-1.c and Makefile from canvas. 
  2. Edited the code to include capabilities info for Pinbased Controls, Primary Processor-Based Controls, Secondary Processor-Based Controls, Tertiary Processor-Based Controls, Entry Controls, and Exit Controls.
- 3. Created an account on the Google Cloud Platform (GCP)
+ 3. Created an account on the Google Cloud Platform (GCP).
  4. Created a VM instance and enabled nested virtualization.
 
  `gcloud compute instances create assignment1 \`
