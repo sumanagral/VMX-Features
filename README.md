@@ -45,6 +45,7 @@ distribution you wish.
  5. Created a new directory - cmpe283assignment-1
 
 `mkdir cmpe283assignment-1`
+
 `cd cmpe283assignment-1`
 
 6. Installed gcc and make in the root folder.
@@ -68,6 +69,7 @@ distribution you wish.
 10. Created a Makefile and copied the content given by the professor.
 
 `nano Makefile`
+
 
 
 <img width="960" alt="7283" src="https://user-images.githubusercontent.com/83566582/200485481-b27f49a5-9cd9-41aa-8933-3fba5dd45060.PNG">
